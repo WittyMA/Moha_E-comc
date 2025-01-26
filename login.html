@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/yistf.png">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQ1W5Dk8tBx5pX5jf9xK8e0eF4Pkx42XfQmZz4p1F5JpF+e2fgI8jAj7L" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pPRwFJwqBz+f2FNlDBGe4nC+7s2U4F9kqE+UO2p5F3x59oNXpFjIlZKGj9rKf7xa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div id="container" class="d-flex flex-column align-items-center mt-5">
+        <div class="logo mb-4">
+            <img src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/4417c959-3482-4f71-942a-a12e015997b6/tanishq.svg?MOD=AJPERES&ampCACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-4417c959-3482-4f71-942a-a12e015997b6-nv8w2CB" alt="Logo" class="img-fluid">
+        </div>
+
+        <div class="main d-flex justify-content-between align-items-center">
+            <div>
+                <fieldset id="tag" class="p-4 border rounded">
+                    <legend>LOGIN WITH PASSWORD</legend>
+                    <h6 class="text-muted">LOGIN USING NUMBER & OTP</h6>
+                    <form id="loginForm">
+                        <input type="email" id="user" class="form-control my-3" placeholder="ENTER E-MAIL" required>
+                        <input type="password" id="pass" class="form-control my-3" placeholder="ENTER PASSWORD" required>
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="mx-3" style="width: 1px; background-color: black; height: 200px;"></div>
+            <div>
+                <img class="signup" src="img/s.png" alt="Sign Up" style="cursor: pointer;">
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/dataExtract.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+    <script>
+        // Redirect to Signup page on image click
+        document.querySelector(".signup").addEventListener("click", function() {
+            window.location.href = "signup.html";
+        });
+
+        // Login form submission handler
+        document.querySelector("#loginForm").addEventListener("submit", login);
+
+        // Retrieve registered users from localStorage
+        const regdUsers = JSON.parse(localStorage.getItem("userDataBase")) || [];
+
+        function login(event) {
+            event.preventDefault();
+
+            const user = document.querySelector("#user").value.trim();
+            const pass = document.querySelector("#pass").value.trim();
+
+            // Hash password using CryptoJS
+            function hashPassword(password) {
+                return CryptoJS.SHA256(password).toString();
+            }
+
+            const hashedPassword = hashPassword(pass);
+
+            if (!user) {
+                alert("Please enter your email.");
+                return;
+            }
+
+            if (!pass) {
+                alert("Please enter your password.");
+                return;
+            }
+
+            let flag = false;
+
+            // Check credentials
+            for (let i = 0; i < regdUsers.length; i++) {
+                if (regdUsers[i].email === user && regdUsers[i].password === hashedPassword) {
+                    flag = true;
+                    localStorage.setItem("flag_val", "true");
+                    alert("Login successful!");
+                    window.location.href = "index.html";
+                    break;
+                }
+            }
+
+            if (!flag) {
+                alert("Invalid Username or Password.");
+            }
+        }
+    </script>
+</body>
+</html>

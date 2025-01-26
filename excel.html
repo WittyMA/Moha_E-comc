@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Export</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        #exportContainer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Form -->
+    <form id="logform">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Login</button>
+    </form>
+    
+    <!-- Export Button -->
+    <div id="exportContainer" style="display: none;">
+        <button id="exportButton">Export Users Data to Excel</button>
+    </div>
+
+    <script>
+        // Retrieve user data from localStorage
+        const userStack = JSON.parse(localStorage.getItem("userDataBase")) || [];
+        var isLogIn = false;
+
+        // Hash password using CryptoJS
+        function hashPassword(password) {
+            return CryptoJS.SHA256(password).toString();
+        }
+
+        // Function to validate login credentials
+        function validateLogin(email, password) {
+            const hashedPassword = hashPassword(password);
+            return userStack.some(user => user.email === email && user.password === hashedPassword);
+        }
+        
+        // Function to show the export button
+        function showExportButton() {
+            document.getElementById("exportContainer").style.display = "block";
+        }
+        // Event listener for the login form
+        document.getElementById("logform").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            if (!email || !password) {
+                alert("Please fill in both email and password.");
+                return;
+            }
+                const admin = "admin@witty.com";
+            if (validateLogin(admin, password)) {
+                alert("Login successful!");
+                showExportButton(); // Show the export button
+            } else {
+                alert("Invalid email or password. Please try again.");
+            }
+        });
+
+        // Check login status and show the export button if logged in
+      
+
+        // Function to export user data to Excel
+        function exportToExcel() {
+            if (userStack.length === 0) {
+                alert("No user data available to export.");
+                return;
+            }
+
+            try {
+                const worksheet = XLSX.utils.json_to_sheet(userStack.map(user => ({
+                    FirstName: user.F_name,
+                    LastName: user.L_name,
+                    Mobile: user.mbl,
+                    Email: user.email,
+                    Password: "********", // Consider masking or omitting this for security
+                    NewsLetter: user.newsletter,
+                    WhatsApp: user.whatsappUpdate,
+                })));
+                const workbook = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(workbook, worksheet, "Users");
+                XLSX.writeFile(workbook, "UserData.xlsx");
+                alert("User data exported successfully!");
+            } catch (error) {
+                console.error("Error exporting data to Excel:", error);
+                alert("An error occurred while exporting data. Please try again.");
+            }
+        }
+
+        // Add event listener to the export button
+        document.getElementById("exportButton").addEventListener("click", exportToExcel);
+    </script>
+</body>
+</html>
