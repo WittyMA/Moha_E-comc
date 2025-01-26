@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img\yistf.png"
+    />
+    <link rel="stylesheet" href="styles\cart.css" />
+    <link rel="stylesheet" href="styles\footer.css" />
+    <link rel="stylesheet" href="styles\navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQ1W5Dk8tBx5pX5jf9xK8e0eF4Pkx42XfQmZz4p1F5JpF+e2fgI8jAj7L" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pPRwFJwqBz+f2FNlDBGe4nC+7s2U4F9kqE+UO2p5F3x59oNXpFjIlZKGj9rKf7xa" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/78d13b8fa3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <p
+      style="font-size: 12px; margin-top: 150px; padding-left: 7%; color: gray"
+    ></p>
+
+    <div id="container1">
+      <h1 class="word"><img src="img/cart.svg" /> : 1 ITEM</h1>
+      <br />
+      <div id="cart">
+        <div>
+          <div id="cartItemTitle">
+            <p>ITEM(S)</p>
+            <p>QUANTITY</p>
+            <p>TOTAL</p>
+          </div>
+
+          <div id="productContainer">
+            <div id="showProduct"></div>
+          </div>
+        </div>
+
+        <div id="summary">
+          <h1>ORDER SUMMARY</h1>
+          <p>Enter Voucher Code</p>
+          <input type="text" id="inputVoucher" />
+          <button id="btnVoucher">APPLY</button>
+
+          <p>Order Total</p>
+          <h2 id="sumTotal"></h2>
+
+          <p>Shipping</p>
+          <h2>FREE</h2>
+
+          <p>discount</p>
+          <h2 id="sumDiscount"></h2>
+
+          <h3>You Pay</h3>
+          <h2 id="SumPay"></h2>
+
+          <h3>Inclusive of all taxes*</h3>
+
+          <h3 id="red">You Save</h3>
+          <h2 id="saving"></h2>
+
+          <button id="btnCheckout" onclick="checkout()">
+            Proceed to Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 200%" id="footer"></div>
+  </body>
+</html>
+<script type="module">
+  import { navbar } from "./components/navbar.js";
+  let N = document.getElementById("navbar");
+  N.innerHTML = navbar();
+
+  let database = JSON.parse(localStorage.getItem("cart")) || [];
+  let ac = document.getElementById("cart1");
+  //  cart.push(products)
+  ac.innerHTML = `<img src="img/cart.svg" alt="Cart Icon" style="width: 3vw; height: 3vh; vertical-align: middle;">${database.length}`;
+  console.log(ac);
+
+  import { footer } from "./components/footer.js";
+  let F = document.getElementById("footer");
+  F.innerHTML = footer();
+</script>
+
+<script>
+  // let database = [ {image: "https://staticimg.titan.co.in/Tanishq/Catalog/512016FYFAA00_1.jpg?pView=listing",
+  //  title: "Timeless 22 Karat Yellow Gold Finger Ring",
+  //  price: "30629",
+  //  discountPrice: "30830",
+  //  weight: "Weight (g): 4.692",
+  //  size: "Ring Size : 17.20 mm"},
+
+  //  {image: "https://staticimg.titan.co.in/Tanishq/Catalog/512016FYFAA00_1.jpg?pView=listing",
+  //  title: "Timeless 22 Karat Yellow Gold Finger Ring",
+  //  price: "30629",
+  //  discountPrice: "30830",
+  //  weight: "Weight (g): 4.692",
+  //  size: "Ring Size : 17.20 mm"} ];
+
+  // Retrieve cart items from localStorage
+ 
+  // Retrieve cart items from localStorage
+  database = JSON.parse(localStorage.getItem("cart")) || [];
+  const word = document.querySelector(".word");
+
+  // Update cart item count in the header
+  function updateCartHeader() {
+    word.innerHTML = `<img src="img/cart1.svg" alt="Cart Icon" style="width: 8vw; height: 6vh; vertical-align: middle;">: ${database.length} ITEMS`;
+  }
+
+  // Function to render cart items
+  function renderCart() {
+    const showProduct = document.getElementById("showProduct");
+    showProduct.innerHTML = ""; // Clear the container
+
+    if (database.length === 0) {
+      // Display "empty cart" message and clear summary
+      showProduct.innerHTML = "<p>Your cart is empty!</p>";
+      document.getElementById("sumTotal").innerText = "GH₵0";
+      document.getElementById("SumPay").innerText = "GH₵0";
+      document.getElementById("saving").innerText = "GH₵0";
+      document.getElementById("sumDiscount").innerText = "GH₵0";
+      return;
+    }
+
+    database.forEach(function (elem, index) {
+      const div = document.createElement("div");
+      div.setAttribute("class", "cart-item");
+
+      const image = document.createElement("img");
+      image.src = elem.Img;
+
+      const title = document.createElement("h3");
+      title.setAttribute("id", "title");
+      title.innerText = elem.Title;
+
+      const price = document.createElement("h3");
+      price.innerText = `${elem.DiscountPrice}`;
+      price.setAttribute("id", "price");
+
+      const discountPrice = document.createElement("h3");
+      discountPrice.setAttribute("id", "discount");
+      discountPrice.innerText = "GH₵" + elem.Price;
+
+      const weight = document.createElement("p");
+      weight.innerText = elem.Weight;
+
+      const size = document.createElement("p");
+      size.innerText = elem.Size || "17.20";
+
+      const qty = document.createElement("input");
+      qty.setAttribute("id", "qty");
+      qty.value = 1;
+      qty.type = "number";
+      qty.addEventListener("change", function () {
+        qtyfunction(qty, price, total);
+      });
+
+      const total = document.createElement("h3");
+      total.setAttribute("id", "total");
+      total.innerText = "GH₵" + elem.DiscountPrice;
+
+      const removeButton = document.createElement("button");
+      removeButton.innerText = "Remove";
+      removeButton.setAttribute("class", "remove-btn");
+      removeButton.addEventListener("click", function () {
+        removeItem(index);
+      });
+
+      const div2 = document.createElement("div");
+      div2.append(title, price, discountPrice, weight, size);
+
+      div.append(image, div2, qty, total, removeButton);
+      showProduct.append(div);
+    });
+
+    updateSummary();
+  }
+
+  // Function to handle quantity change
+  function qtyfunction(qty, price, total) {
+    const quantity = qty.value;
+    const itemPrice = +price.innerText;
+    total.innerText = "GH₵" + quantity * itemPrice;
+    updateSummary();
+  }
+
+  // Function to remove an item from the cart
+  function removeItem(index) {
+    database.splice(index, 1); // Remove item from the array
+    localStorage.setItem("cart", JSON.stringify(database)); // Update localStorage
+    renderCart(); // Re-render the cart
+    updateCartHeader(); // Update cart header count
+    location.reload(); // Auto-refresh the page to reflect changes
+
+  }
+
+  // Function to update the order summary
+  function updateSummary() {
+    let sum = 0;
+    let Tsum = 0;
+
+    database.forEach(function (elem) {
+      const disprice = +elem.Price;
+      sum += disprice;
+
+      const totalPrice = +elem.DiscountPrice;
+      Tsum += totalPrice;
+    });
+
+    const saving = sum - Tsum;
+
+    document.getElementById("sumTotal").innerText = "GH₵" + sum;
+    document.getElementById("SumPay").innerText = "GH₵" + Tsum;
+    document.getElementById("saving").innerText = "GH₵" + saving;
+    document.getElementById("sumDiscount").innerText = "GH₵" + saving;
+  }
+
+  // Initial render
+  renderCart();
+  updateCartHeader();
+
+  // Checkout function
+  function checkout() {
+    if (database.length === 0) {
+      alert("Your cart is empty!");
+      return;
+    }
+    window.location.href = "checkout.html";
+  }
+</script>

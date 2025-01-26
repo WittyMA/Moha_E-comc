@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/yistf.png">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <style>
+        #container {
+            font-family: "Playfair Display", sans-serif;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        fieldset {
+            height: auto;
+            width: 40%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .inputt {
+            width: 95%;
+            height: 40px;
+            text-align: center;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .flag {
+            width: 5%;
+        }
+        .phon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .phon > input {
+            width: 60%;
+            margin-left: 5px;
+        }
+        button {
+            width: 100%;
+            height: 50px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .box p {
+            margin-left: 10px;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="main">
+            <fieldset class="sgin_div">
+                <legend>SIGN UP</legend>
+                <form id="signupForm">
+                    <input class="inputt F_name" type="text" placeholder="FIRST NAME" name="FIRST NAME" required>
+                    <input class="inputt L_name" type="text" placeholder="LAST NAME" name="LAST NAME" required>
+                    <div class="phon">
+                        <img class="flag" src="img/ghana (1).svg" alt="Flag">
+                        <h4>+233</h4>
+                        <input class="inputt mbl" type="text" placeholder="PHONE NUMBER" name="PHONE NUMBER" required>
+                    </div>
+                    <input class="inputt email" type="email" placeholder="E-MAIL" name="E-MAIL" required>
+                    <input class="inputt pass" type="password" placeholder="PASSWORD" required>
+                    <div class="box">
+                        <input class="newsletter" type="checkbox" name="newsletters">
+                        <p>Receive our newsletters and special offers.</p>
+                    </div>
+                    <div class="box">
+                        <input class="whatsappUpdate" type="checkbox" name="whatsappUpdates">
+                        <p>Get updates on WhatsApp</p>
+                    </div>
+                    <div class="box">
+                        <input class="terms" type="checkbox" name="terms" required>
+                        <p>I agree to the Terms & Conditions and Privacy Policy.</p>
+                    </div>
+                    <button type="submit">REGISTER</button>
+                </form>
+                <div class="login-link">
+                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <script>
+        // Function to hash the password using CryptoJS
+        function hashPassword(password) {
+            return CryptoJS.SHA256(password).toString();
+        }
+
+        document.getElementById("signupForm").addEventListener("submit", formSubmit);
+
+        let userStack = JSON.parse(localStorage.getItem("userDataBase")) || [];
+
+        function formSubmit(event) {
+            event.preventDefault();
+
+            // Retrieve form values
+            const F_name = document.querySelector(".F_name").value.trim();
+            const L_name = document.querySelector(".L_name").value.trim();
+            const mbl = document.querySelector(".mbl").value.trim();
+            const email = document.querySelector(".email").value.trim();
+            const password = document.querySelector(".pass").value.trim();
+            const newsletter = document.querySelector(".newsletter").checked;
+            const whatsappUpdate = document.querySelector(".whatsappUpdate").checked;
+            const terms = document.querySelector(".terms").checked;
+
+            // Validation
+            if (F_name === "") {
+                alert("Please fill in your first name.");
+                return;
+            }
+            if (L_name === "") {
+                alert("Please fill in your last name.");
+                return;
+            }
+            if (mbl === "" || mbl.length !== 10 || isNaN(mbl)) {
+                alert("Invalid mobile number. Please enter a valid 10-digit number.");
+                return;
+            }
+            if (email === "") {
+                alert("Please enter your email.");
+                return;
+            }
+            if (password === "") {
+                alert("Please enter your password.");
+                return;
+            }
+            if (!terms) {
+                alert("You must agree to the Terms & Conditions and Privacy Policy.");
+                return;
+            }
+
+            // Hash the password before storing
+            const hashedPassword = hashPassword(password);
+
+            // Prepare the user data
+            const userData = {
+                F_name,
+                L_name,
+                mbl,
+                email,
+                password: hashedPassword,
+                newsletter,
+                whatsappUpdate,
+            };
+
+            // Save to local storage
+            userStack.push(userData);
+            localStorage.setItem("userDataBase", JSON.stringify(userStack));
+
+            // Redirect to login page
+            alert("Sign-up successful!");
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
