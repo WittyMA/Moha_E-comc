@@ -427,3 +427,12 @@ body {
   margin-right: 15%;
   /* margin-top: 30px; */
 }
+#slides1_img {
+  height: 70vh;
+  width: 20vw;
+}
+
+.bottom_slides {
+  height: 70vh;
+  width: 15vw;
+}

@@ -64,7 +64,7 @@ let navbar = () => {
 
         <div id="div2">
             <a href="index.html"><center>Home</center><img id="logo"
-                    src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/cb53f671-01d0-449e-b18d-a4e61e6ffa0b/TanishqLogo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-cb53f671-01d0-449e-b18d-a4e61e6ffa0b-mC036IT"
+                    src="https://www.yesulikplimits.com/img/yistf.png"
                     alt="" /></a>
 
             <ul id="topnav2" class="top ulnav">
