@@ -7,7 +7,7 @@ let databaseArray = [
     Weight: "5.580g",
     Price: 36137.0,
     DiscountPrice: 36000.0,
-    Img: ["../img/bot1.jpg", "../img/bottle.jpeg"],
+    Img: ["../img/bot1.jpg"],
     Brand: "Contingo",
   },
   {
@@ -18,12 +18,7 @@ let databaseArray = [
     Weight: "3.112g",
     Price: 45206.0,
     DiscountPrice: 45000.0,
-    Img: [
-      "../img/bot2.jpg",
-      "../img/bot22.jpg",
-      "../img/bot23.jpg",
-      "../img/bot24.jpg",
-    ],
+    Img: ["../img/bot2.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -45,12 +40,7 @@ let databaseArray = [
     Weight: "6.564g",
     Price: 44819.0,
     DiscountPrice: 44000.0,
-    Img: [
-      "../img/bot3.jpg",
-      "../img/bot19.jpg",
-      "../img/bot20.jpg",
-      "../img/bot21.jpg",
-    ],
+    Img: ["../img/bot3.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -61,7 +51,7 @@ let databaseArray = [
     Weight: "6.764g",
     Price: 20718.0,
     DiscountPrice: 20000.0,
-    Img: ["../img/bot4.jpg", "../img/bot18.jpg"],
+    Img: ["../img/bot4.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -72,7 +62,7 @@ let databaseArray = [
     Weight: "8.232g",
     Price: 55017.0,
     DiscountPrice: 55000.0,
-    Img: ["../img/bot5.jpg", "../img/bot17.jpg"],
+    Img: ["../img/bot5.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -83,7 +73,7 @@ let databaseArray = [
     Weight: "3.674g",
     Price: 24555.0,
     DiscountPrice: 24000.0,
-    Img: ["../img/bot6.jpg", "../img/bot16.jpg"],
+    Img: ["../img/bot6.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -94,18 +84,18 @@ let databaseArray = [
     Weight: "4.728g",
     Price: 31476.0,
     DiscountPrice: 30000.0,
-    Img: ["../img/bot7.jpg", "../img/bot14.jpg", "../img/bot15.jpg"],
+    Img: ["../img/bot7.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Brilliant Yellow Gold Peacock Jhumkas",
+    Title: "Brilliant Yellow Gold Peacock Jhumk",
     Description:
       "These grand 22 Karat Gold Jhumkas feature a carved peacock stud suspending a lantern-like bell adorned with cutout diamonds and discs, ending in a bead",
     Type: "Jhumka",
     Weight: "3.660g",
     Price: 24461.0,
     DiscountPrice: 24000.0,
-    Img: ["../img/bot8.jpg", "../img/bot9.jpg"],
+    Img: ["../img/bot8.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -120,14 +110,14 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Earrings",
+    Title: "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Bottles",
     Description:
       "These quirky 18 Karat yellow gold earrings feature a geometric design with a pearl adorned at the centre and at the bottom",
     Type: "Drops",
     Weight: "3.021g",
     Price: 15673.0,
     DiscountPrice: 15000.0,
-    Img: ["../img/bot11.jpg", "../img/bot12.jpg", "../img/bot13.jpg"],
+    Img: ["../img/bot11.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -138,7 +128,7 @@ let databaseArray = [
     Weight: "10.445g",
     Price: 66874.0,
     DiscountPrice: 66000.0,
-    Img: ["../img/bot26.jpg", "../img/bot27.jpg"],
+    Img: ["../img/bot26.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -149,7 +139,7 @@ let databaseArray = [
     Weight: "5.059g",
     Price: 26015.0,
     DiscountPrice: 25000.0,
-    Img: ["../img/bot28.jpg", "../img/bot29.jpg", "../img/bot30.jpg"],
+    Img: ["../img/bot29.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -160,18 +150,18 @@ let databaseArray = [
     Weight: "7.701g",
     Price: 54136.0,
     DiscountPrice: 53000.0,
-    Img: ["../img/bot31.jpg", "../img/bot32.jpg"],
+    Img: ["../img/bot31.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Nimaya Ruby Drop Earrings",
+    Title: "Nimaya Ruby Drop Bottles",
     Description:
       "Ruby Drop Earrings with Traditional Design crafted in 22 Karat Yellow Gold with glossy finish",
     Type: "Drops",
     Weight: "6.610g",
     Price: 47880.0,
     DiscountPrice: 46000.0,
-    Img: ["../img/bot33.jpg", "../img/bot34.jpg"],
+    Img: ["../img/bot27.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -182,7 +172,7 @@ let databaseArray = [
     Weight: "5.636g",
     Price: 38982.0,
     DiscountPrice: 37000.0,
-    Img: ["../img/bot35.jpg", "../img/bot36.jpg"],
+    Img: ["../img/bot35.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -193,7 +183,7 @@ let databaseArray = [
     Weight: "7.516g",
     Price: 54530.0,
     DiscountPrice: 53000.0,
-    Img: ["../img/bot37.jpg", "../img/bot38.jpg"],
+    Img: ["../img/bot30.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -204,7 +194,7 @@ let databaseArray = [
     Weight: "5.061g",
     Price: 35895.0,
     DiscountPrice: 35000.0,
-    Img: ["../img/bot39.jpg", "../img/bot40.jpg"],
+    Img: ["../img/bot40.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -215,11 +205,7 @@ let databaseArray = [
     Weight: "3.106g",
     Price: 23533.0,
     DiscountPrice: 23000.0,
-    Img: [
-      "../img/bot41.jpg",
-      "../img/bot42.webp",
-      "../img/Kiyo-UVC-Bottle-500ml-Blue-Hour_900x.webp",
-    ],
+    Img: ["../img/Kiyo-UVC-Bottle-500ml-Blue-Hour_900x.webp"],
     Brand: "Tanishq",
   },
   {
@@ -230,7 +216,7 @@ let databaseArray = [
     Weight: "3.116g",
     Price: 22913.0,
     DiscountPrice: 22000.0,
-    Img: ["../img/bot43.jpg", "../img/bot43A.jpg", "../img/bot44.jpg"],
+    Img: ["../img/bot43.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -241,18 +227,18 @@ let databaseArray = [
     Weight: "3.610g",
     Price: 20997.0,
     DiscountPrice: 19000.0,
-    Img: ["../img/bot35A.jpg", "../img/bot35B.jpg", "../img/bot35.jpg"],
+    Img: ["../img/bot35A.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Dainty Beaded Gold Hoop Earrings",
+    Title: "Dainty Beaded Gold Hoop Bottles",
     Description:
       "Add the classic sheen of gold to your outfit and look stunning with this pair of hoop earrings crafted in 18 Karat Yellow Gold.",
     Type: "Hoops",
     Weight: "1.266g",
     Price: 6976.0,
     DiscountPrice: 6000.0,
-    Img: ["../img/bott2.jpg", "../img/bott5.jpg", "../img/bott33.jpg"],
+    Img: ["../img/bott33.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -263,7 +249,7 @@ let databaseArray = [
     Weight: "0.545g",
     Price: 2899.0,
     DiscountPrice: 2700.0,
-    Img: ["../img/bott45.jpg", "../img/bot50.jpg"],
+    Img: ["../img/bot25.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -274,67 +260,62 @@ let databaseArray = [
     Weight: "1.286g",
     Price: 6760.0,
     DiscountPrice: 6700.0,
-    Img: ["../img/bot10.jpg", "../img/bot11.jpg", "../img/bot12.jpg"],
+    Img: ["../img/bot11.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Timeless 18 Karat Yellow Gold Bali-Style Hoop Earrings",
+    Title: "Timeless 18 Karat Yellow Gold Bali-Style Hoop Bottles",
     Description:
       "These 18 Karat gold earrings feature two rings and a multi-faceted gold bead with tiny dots all over it strung on a smooth, easy-on-hinged gold hoop",
     Type: "Hoops",
     Weight: "0.966g",
     Price: 5139.0,
     DiscountPrice: 5000.0,
-    Img: ["../img/bot13.jpg", "../img/bot14.jpg"],
+    Img: ["../img/bot13.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Delightful Gold Hoop Earrings",
+    Title: "Delightful Gold Hoop Bottles",
     Description:
       "Add a touch of glam to your sublime look with these Geometric Hoop Earrings Crafted in 22 Karat High Polish Yellow Gold suitable for any occasion.",
     Type: "Hoops",
     Weight: "4.077g",
     Price: 23868.0,
     DiscountPrice: 22000.0,
-    Img: ["../img/bot15.jpg", "../img/bot16.jpg"],
+    Img: ["../img/bot15.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Entrancing Swirling Gold Beaded Hoop Bali Earrings",
+    Title: "Entrancing Swirling Gold Beaded Hoop Bali Bottles",
     Description:
       "The mesmerising swirling mesh pattern in these floral hoop earrings crafted in 18 Karat Yellow Gold makes this an enchanting pair.",
     Type: "Hoops",
     Weight: "3.608g",
     Price: 20035.0,
     DiscountPrice: 19000.0,
-    Img: ["../img/bot17.jpg", "../img/bot18.jpg", "../img/bot19.jpg"],
+    Img: ["../img/bot19.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Elegant Gold Hoop Bali Earrings",
+    Title: "Elegant Gold Hoop Bali Bottles",
     Description:
       "Revel in Minimalistic glory with these Hoop Earrings Crafted in 22 Karat Glossy Yellow Gold. Comes in a fine glossy finish.",
     Type: "Hoops",
     Weight: "5.66g",
     Price: 33171.0,
     DiscountPrice: 32000.0,
-    Img: [
-      "../img/bot20.jpg",
-      "../img/bot22.jpg",
-      "../img/bot24.jpg",
-      "../img/bot24.jpg",
-    ],
+    Img: ["../img/bot22.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Romantic Gold Hoop Earrings",
+    Title: "Romantic Gold Hoop Bottles",
     Description:
       "Romanticise every moment of your life with the subtle sheen of these hoop earrings crafted in 18 Karat Yellow Gold.",
     Type: "Hoops",
     Weight: "1.597g",
     Price: 8496.0,
     DiscountPrice: 8000.0,
-    Img: ["../img/bot27.jpg", "../img/bot28.jpg", "../img/bot29.jpg"],
+    Img: ["../img/bot24.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -345,7 +326,7 @@ let databaseArray = [
     Weight: "3.466g",
     Price: 19100.0,
     DiscountPrice: 18000.0,
-    Img: ["../img/bot30.jpg", "../img/bot31.jpg"],
+    Img: ["../img/bot30.jpg"],
     Brand: "Contigo",
   },
   {
@@ -356,7 +337,7 @@ let databaseArray = [
     Weight: "8.921g",
     Price: 63040.0,
     DiscountPrice: 62000.0,
-    Img: ["../img/contigo.jpg", "../img/contigo.jpg"],
+    Img: ["../img/contigo.jpg"],
     Brand: "Contigo",
   },
   {
@@ -367,7 +348,7 @@ let databaseArray = [
     Weight: "5.096g",
     Price: 37106.0,
     DiscountPrice: 36000.0,
-    Img: ["../img/bot1.jpg", "../img/bot2.jpg"],
+    Img: ["../img/bot1.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -378,7 +359,7 @@ let databaseArray = [
     Weight: "2.356g",
     Price: 11700.0,
     DiscountPrice: 11000.0,
-    Img: ["../img/bot10.jpg", "../img/bot3.jpg", "../img/bot20.jpgs"],
+    Img: ["../img/bot17.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -389,7 +370,7 @@ let databaseArray = [
     Weight: "5.942g",
     Price: 42912.0,
     DiscountPrice: 42000.0,
-    Img: ["../img/bot12.jpg", "../img/bot11.jpg"],
+    Img: ["../img/bot16.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -400,7 +381,7 @@ let databaseArray = [
     Weight: "4.117g",
     Price: 29012.0,
     DiscountPrice: 28000.0,
-    Img: ["../img/bot15.jpg", "../img/bot5.jpg"],
+    Img: ["../img/bot41.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -411,7 +392,7 @@ let databaseArray = [
     Weight: "1.693g",
     Price: 11160.0,
     DiscountPrice: 11000.0,
-    Img: ["../img/bot4.jpg", "../img/bot14.jpg"],
+    Img: ["../img/bot4.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -422,7 +403,7 @@ let databaseArray = [
     Weight: "1.693g",
     Price: 9348.0,
     DiscountPrice: 9000.0,
-    Img: ["../img/bot16.jpg", "../img/bot26.jpg", "../img/bot30.jpg"],
+    Img: ["../img/bot26.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -433,7 +414,7 @@ let databaseArray = [
     Weight: "5.449g",
     Price: 24247.0,
     DiscountPrice: 24000.0,
-    Img: ["../img/bot30.jpg", "../img/bot31.jpg"],
+    Img: ["../img/bot31.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -444,7 +425,7 @@ let databaseArray = [
     Weight: "5.942g",
     Price: 42912.0,
     DiscountPrice: 42000.0,
-    Img: ["../img/bot32.jpg", "../img/bot33.jpg"],
+    Img: ["../img/bot33.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -455,7 +436,7 @@ let databaseArray = [
     Weight: "5.611g",
     Price: 38081.0,
     DiscountPrice: 37000.0,
-    Img: ["../img/bot34.jpg", "../img/bot35.jpg"],
+    Img: ["../img/bot34.jpg"],
   },
 ];
 

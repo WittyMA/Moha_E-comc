@@ -54,8 +54,13 @@ const footer = () => {
                     <h5 style="color: white; font-size: 10px;">TERMS & CONDITIONS</h5>
                   <h5 style="color: white; margin-left: 8%; font-size: 10px;">PRIVACY POLICY</h5>
                 </div>
+                
                 <h5 style="color: white;font-size: 10px; margin-top: -1%;">© 2025 Peritium Company Limited. All Rights Reserved.</h5>
             </div>
+            <div>
+            
+                <a style="height: 0.5vh; width: 0.5vw;" href="https://www.yesulikplimits.com"><img style="height:25%; width: 25%;" src="../img/yistf.png" alt=""><strong><i>Developer</strong></i></a>
+                </div>
         
         </div>
         
