@@ -441,7 +441,7 @@ let databaseArray = [
   {
     Title: "Resplendent Floral Ruby Stud Earrings",
     Description:
-      "Floral Stud Earrings set in 22 Karat Yellow Gold and studded with Marquise and Round Rubies",
+      "Floral Stud Bottle set in 22 Karat Yellow Gold and studded with Marquise and Round Rubies",
     Type: "Studs",
     Weight: "5.942g",
     Price: 42912.0,
