@@ -458,7 +458,6 @@ let databaseArray = [
     Price: 38081.0,
     DiscountPrice: 37000.0,
     Img: ["../img/bot34.jpg", "../img/bot35.jpg"],
-    Brand: "Tanishq",
   },
 ];
 
