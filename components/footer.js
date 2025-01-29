@@ -18,13 +18,10 @@ const footer = () => {
             <br>
             <ul>TRACK ORDER</ul>
             <br>
-            <ul>ENCIRCLE PROGRAM</ul>
-            <br>
-            <ul>OFFER & CONTEST DETAILS</ul>
-        </ul>
+            </ul>
     </div>
     <div id="leftside"><br> <br>
-        <ul id="about">About Mohammed LTD</ul>
+        <ul id="about">About Peritium LTD</ul>
         <ul>CAREERS</ul>
         <ul>FIND A STORE</ul>
         <ul>BLOG</ul>
@@ -57,7 +54,7 @@ const footer = () => {
                     <h5 style="color: white; font-size: 10px;">TERMS & CONDITIONS</h5>
                   <h5 style="color: white; margin-left: 8%; font-size: 10px;">PRIVACY POLICY</h5>
                 </div>
-                <h5 style="color: white;font-size: 10px; margin-top: -1%;">© 2022 CalBank Company Limited. All Rights Reserved.</h5>
+                <h5 style="color: white;font-size: 10px; margin-top: -1%;">© 2025 Peritium Company Limited. All Rights Reserved.</h5>
             </div>
         
         </div>

@@ -7,7 +7,7 @@ let databaseArray = [
     Weight: "5.580g",
     Price: 36137.0,
     DiscountPrice: 36000.0,
-    Img: ["../img/bottle.jpeg", "../img/3108HJ8z9gL._AC_UL320_.jpg"],
+    Img: ["../img/bottle.jpeg", "../img/bot1.jpg"],
     Brand: "Contigo",
   },
   {
@@ -20,9 +20,9 @@ let databaseArray = [
     DiscountPrice: 45000.0,
     Img: [
       "../img/bot42.webp",
-      "https://www.amazon.com/Hidrate-Spark-Smart-Tumbler-Bundle/dp/B0BWK2TK2V?ref_=ast_sto_dp&th=1&psc=1",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDPABA00_4.jpg?impolicy=pqmedlow&imwidth=320",
+      "../img/bot22.jpg",
+      "../img/bot23.jpg",
+      "../img/bot24.jpg",
     ],
     Brand: "Tanishq",
   },
@@ -34,9 +34,7 @@ let databaseArray = [
     Weight: "6.706g",
     Price: 43700.0,
     DiscountPrice: 43000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512314JIBABB00_1.jpg?impolicy=pqmed&imwidth=640",
-    ],
+    Img: ["../img/bot2.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -48,10 +46,10 @@ let databaseArray = [
     Price: 44819.0,
     DiscountPrice: 44000.0,
     Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCQABA00_4.jpg?impolicy=pqmedlow&imwidth=320",
+      "../img/bot3.jpg",
+      "../img/bot19.jpg",
+      "../img/bot20.jpg",
+      "../img/bot21.jpg",
     ],
     Brand: "Tanishq",
   },
@@ -63,10 +61,7 @@ let databaseArray = [
     Weight: "6.764g",
     Price: 20718.0,
     DiscountPrice: 20000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot4.jpg", "../img/bot18.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -77,10 +72,7 @@ let databaseArray = [
     Weight: "8.232g",
     Price: 55017.0,
     DiscountPrice: 55000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JCVABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot5.jpg", "../img/bot17.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -91,10 +83,7 @@ let databaseArray = [
     Weight: "3.674g",
     Price: 24555.0,
     DiscountPrice: 24000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDMAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot6.jpg", "../img/bot16.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -105,11 +94,7 @@ let databaseArray = [
     Weight: "4.728g",
     Price: 31476.0,
     DiscountPrice: 30000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JBGABA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot7.jpg", "../img/bot14.jpg", "../img/bot15.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -120,10 +105,7 @@ let databaseArray = [
     Weight: "3.660g",
     Price: 24461.0,
     DiscountPrice: 24000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/515090JDHAGA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot8.jpg", "../img/bot9.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -134,9 +116,7 @@ let databaseArray = [
     Weight: "4.273g",
     Price: 27672.0,
     DiscountPrice: 27000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512216JHFABB00_1.jpg?impolicy=pqmed&imwidth=640",
-    ],
+    Img: ["../img/bot10.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -147,11 +127,7 @@ let databaseArray = [
     Weight: "3.021g",
     Price: 15673.0,
     DiscountPrice: 15000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500109DAAABAPL_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot11.jpg", "../img/bot12.jpg", "../img/bot13.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -162,10 +138,7 @@ let databaseArray = [
     Weight: "10.445g",
     Price: 66874.0,
     DiscountPrice: 66000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQEABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot26.jpg", "../img/bot27.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -176,11 +149,7 @@ let databaseArray = [
     Weight: "5.059g",
     Price: 26015.0,
     DiscountPrice: 25000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500859DBAABA31_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot28.jpg", "../img/bot29.jpg", "../img/bot30.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -191,10 +160,7 @@ let databaseArray = [
     Weight: "7.701g",
     Price: 54136.0,
     DiscountPrice: 53000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511182DVNABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot31.jpg", "../img/bot32.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -205,10 +171,7 @@ let databaseArray = [
     Weight: "6.610g",
     Price: 47880.0,
     DiscountPrice: 46000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183DQJABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot33.jpg", "../img/bot34.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -219,10 +182,7 @@ let databaseArray = [
     Weight: "5.636g",
     Price: 38982.0,
     DiscountPrice: 37000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPEABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot35.jpg", "../img/bot36.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -233,10 +193,7 @@ let databaseArray = [
     Weight: "7.516g",
     Price: 54530.0,
     DiscountPrice: 53000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot37.jpg", "../img/bot38.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -247,10 +204,7 @@ let databaseArray = [
     Weight: "5.061g",
     Price: 35895.0,
     DiscountPrice: 35000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814DPGABA40_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot39.jpg", "../img/bot40.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -262,9 +216,9 @@ let databaseArray = [
     Price: 23533.0,
     DiscountPrice: 23000.0,
     Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCCABA18_3.jpg?impolicy=pqmedlow&imwidth=320",
+      "../img/bot41.jpg",
+      "../img/bot42.webp",
+      "../img/Kiyo-UVC-Bottle-500ml-Blue-Hour_900x.webp",
     ],
     Brand: "Tanishq",
   },
@@ -276,11 +230,7 @@ let databaseArray = [
     Weight: "3.116g",
     Price: 22913.0,
     DiscountPrice: 22000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511096DCGABA18_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot43.jpg", "../img/bot43A.jpg", "../img/bot44.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -291,11 +241,7 @@ let databaseArray = [
     Weight: "3.610g",
     Price: 20997.0,
     DiscountPrice: 19000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500177HKAABA12_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot35A.jpg", "../img/bot35B.jpg", "../img/bot35.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -306,11 +252,7 @@ let databaseArray = [
     Weight: "1.266g",
     Price: 6976.0,
     DiscountPrice: 6000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZHAAA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bott2.jpg", "../img/bott5.jpg", "../img/bott33.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -321,10 +263,7 @@ let databaseArray = [
     Weight: "0.545g",
     Price: 2899.0,
     DiscountPrice: 2700.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDSAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bott45.jpg", "../img/bot50.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -449,10 +388,7 @@ let databaseArray = [
     Weight: "5.096g",
     Price: 37106.0,
     DiscountPrice: 36000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183STSABB18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot1.jpg", "../img/bot2.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -463,11 +399,7 @@ let databaseArray = [
     Weight: "2.356g",
     Price: 11700.0,
     DiscountPrice: 11000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500060SAAAGAPL_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot10.jpg", "../img/bot3.jpg", "../img/bot20.jpgs"],
     Brand: "Tanishq",
   },
   {
@@ -478,10 +410,7 @@ let databaseArray = [
     Weight: "5.942g",
     Price: 42912.0,
     DiscountPrice: 42000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-    ],
+    Img: ["../img/bot12.jpg", "../img/bot11.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -492,10 +421,7 @@ let databaseArray = [
     Weight: "4.117g",
     Price: 29012.0,
     DiscountPrice: 28000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/512814SQUABA18_2.jpg?impolicy=pqmed&imwidth=640",
-    ],
+    Img: ["../img/bot15.jpg", "../img/bot5.jpg"],
     Brand: "Tanishq",
   },
   {
