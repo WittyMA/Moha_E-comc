@@ -1,8 +1,8 @@
 let obj = JSON.parse(localStorage.getItem("productDetails"));
 let img = document.querySelector("#div-below-addtocart>div>img");
 img.src = obj.Img[0];
-img.style.width = "390px";
-img.style.height = "390px";
+img.style.width = "50%";
+img.style.height = "60%";
 
 let td1 = document.querySelector("#designtd");
 let td2 = document.querySelector("#typetd");
@@ -88,7 +88,7 @@ const productSpecifications = () => {
   let td1tr5 = document.createElement("td");
   td1tr5.innerText = "PRODUCT";
   let td2tr5 = document.createElement("td");
-  td2tr5.innerText = "Earing";
+  td2tr5.innerText = "Bottles";
   tr5.append(td1tr5, td2tr5);
 
   let tr6 = document.createElement("tr");

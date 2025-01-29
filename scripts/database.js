@@ -7,8 +7,8 @@ let databaseArray = [
     Weight: "5.580g",
     Price: 36137.0,
     DiscountPrice: 36000.0,
-    Img: ["../img/bottle.jpeg", "../img/bot1.jpg"],
-    Brand: "Contigo",
+    Img: ["../img/bot1.jpg", "../img/bottle.jpeg"],
+    Brand: "Contingo",
   },
   {
     Title: "Hidrate Spark PRO Smart Water Bottle",
@@ -19,7 +19,7 @@ let databaseArray = [
     Price: 45206.0,
     DiscountPrice: 45000.0,
     Img: [
-      "../img/bot42.webp",
+      "../img/bot2.jpg",
       "../img/bot22.jpg",
       "../img/bot23.jpg",
       "../img/bot24.jpg",
@@ -34,7 +34,7 @@ let databaseArray = [
     Weight: "6.706g",
     Price: 43700.0,
     DiscountPrice: 43000.0,
-    Img: ["../img/bot2.jpg"],
+    Img: ["../img/bot42.webp"],
     Brand: "Tanishq",
   },
   {
@@ -267,18 +267,14 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Dainty Delicate Gold Hoop Earrings",
+    Title: "Dainty Delicate Gold Hoop Bottles",
     Description:
       "Make a subtle style statement with these delicate hoop earrings crafted in 18 Karat Yellow Gold with a glossy finish.",
     Type: "Hoops",
     Weight: "1.286g",
     Price: 6760.0,
     DiscountPrice: 6700.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/503013HZGAAA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot10.jpg", "../img/bot11.jpg", "../img/bot12.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -289,10 +285,7 @@ let databaseArray = [
     Weight: "0.966g",
     Price: 5139.0,
     DiscountPrice: 5000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HDUAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot13.jpg", "../img/bot14.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -303,10 +296,7 @@ let databaseArray = [
     Weight: "4.077g",
     Price: 23868.0,
     DiscountPrice: 22000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511418HAYAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot15.jpg", "../img/bot16.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -317,11 +307,7 @@ let databaseArray = [
     Weight: "3.608g",
     Price: 20035.0,
     DiscountPrice: 19000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501720HCSAAA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot17.jpg", "../img/bot18.jpg", "../img/bot19.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -333,10 +319,10 @@ let databaseArray = [
     Price: 33171.0,
     DiscountPrice: 32000.0,
     Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_1.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/510340HDAAKA00_3.jpg?impolicy=pqmedlow&imwidth=320",
+      "../img/bot20.jpg",
+      "../img/bot22.jpg",
+      "../img/bot24.jpg",
+      "../img/bot24.jpg",
     ],
     Brand: "Tanishq",
   },
@@ -348,25 +334,18 @@ let databaseArray = [
     Weight: "1.597g",
     Price: 8496.0,
     DiscountPrice: 8000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/502218HOVAAA00_3.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot27.jpg", "../img/bot28.jpg", "../img/bot29.jpg"],
     Brand: "Tanishq",
   },
   {
-    Title: "Sophisticated Yellow Gold Thunderbolt Hoop Earrings",
+    Title: "Sophisticated Yellow Gold Thunderbolt Hoop Bottle",
     Description:
       "These suave 18 Karat Yellow Gold Hoops feature a polished 3-pronged zigzag with a hanging teardrop, suspended by o-ring from a flattened hook",
     Type: "Hoops",
     Weight: "3.466g",
     Price: 19100.0,
     DiscountPrice: 18000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500937HBAAAA00_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot30.jpg", "../img/bot31.jpg"],
     Brand: "Contigo",
   },
   {
@@ -381,7 +360,7 @@ let databaseArray = [
     Brand: "Contigo",
   },
   {
-    Title: "Charming 22 Karat Yellow Gold And Ruby Floral Stud Earrings",
+    Title: "Charming 22 Karat Yellow Gold And Ruby Floral Stud Bottle",
     Description:
       "These riveting 22 Karat gold studs feature 4 oval and 5 round prong-set rubies arranged in a charmingly classic flower design, with a screw-back post",
     Type: "Studs",
@@ -392,7 +371,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Charming 18 Karat Yellow Gold And Pearl Stud Earrings",
+    Title: "Charming 18 Karat Yellow Gold And Pearl Stud Bottle",
     Description:
       "Graceful 18 Karat yellow gold studs featuring 3 stems flaunting a swirl pattern and holding a pearl at the bottom",
     Type: "Studs",
@@ -433,10 +412,7 @@ let databaseArray = [
     Weight: "1.693g",
     Price: 11160.0,
     DiscountPrice: 11000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500067SWAABA12_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot4.jpg", "../img/bot14.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -447,11 +423,7 @@ let databaseArray = [
     Weight: "1.693g",
     Price: 9348.0,
     DiscountPrice: 9000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/500104SHAABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot16.jpg", "../img/bot26.jpg", "../img/bot30.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -463,10 +435,7 @@ let databaseArray = [
     Weight: "5.449g",
     Price: 24247.0,
     DiscountPrice: 24000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501033SXKABAPL_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot30.jpg", "../img/bot31.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -477,10 +446,7 @@ let databaseArray = [
     Weight: "5.942g",
     Price: 42912.0,
     DiscountPrice: 42000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/511183SSFABA18_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot32.jpg", "../img/bot33.jpg"],
     Brand: "Tanishq",
   },
   {
@@ -491,10 +457,7 @@ let databaseArray = [
     Weight: "5.611g",
     Price: 38081.0,
     DiscountPrice: 37000.0,
-    Img: [
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_1.jpg?impolicy=pqmed&imwidth=640",
-      "https://staticimg.titan.co.in/Tanishq/Catalog/501095SAJABA11_2.jpg?impolicy=pqmedlow&imwidth=320",
-    ],
+    Img: ["../img/bot34.jpg", "../img/bot35.jpg"],
     Brand: "Tanishq",
   },
 ];
