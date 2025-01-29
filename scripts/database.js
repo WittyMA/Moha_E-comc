@@ -393,7 +393,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Mesmerizing 22 Karat Gold And Ruby Bloom Stud Earrings",
+    Title: "Mesmerizing 22 Karat Gold And Ruby Bloom Stud Bottle",
     Description:
       "These glamorous 22 Karat gold studs feature 9 lush prong-set marquise rubies tipped in gold, encircling 1 round ruby in a blooming flower design",
     Type: "Studs",
@@ -404,8 +404,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title:
-      "Appealing 18 Karat Yellow Gold Ruby-Embellished Petals Stud Earrings",
+    Title: "Appealing 18 Karat Yellow Gold Ruby-Embellished Petals Stud Bottle",
     Description:
       "Awe-striking 18 Karat yellow gold studs featuring a flower design with 6 petals and a bud, all embellished with Rubies",
     Type: "Studs",
@@ -427,8 +426,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title:
-      "Classy 18 Karat Yellow Gold And Pearl Swirling Petals Stud Earrings",
+    Title: "Classy 18 Karat Yellow Gold And Pearl Swirling Petals Stud Bottle",
     Description:
       "Impressive 18 Karat yellow gold studs featuring a flower design with swirling petals and a pearl-adorned bud",
     Type: "Studs",
@@ -439,7 +437,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Resplendent Floral Ruby Stud Earrings",
+    Title: "Resplendent Floral Ruby Stud Bottle",
     Description:
       "Floral Stud Bottle set in 22 Karat Yellow Gold and studded with Marquise and Round Rubies",
     Type: "Studs",
@@ -450,7 +448,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Opulent 18 Karat Gold And Emerald Paisley Drop Earrings",
+    Title: "Opulent 18 Karat Gold And Emerald Paisley Drop Bottles",
     Description:
       "These 18 Karat gold drop earrings feature lush emeralds clustered in a twisted paisley motif, with a single dangling emerald teardrop",
     Type: "Studs",
