@@ -99,7 +99,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Splendid Gold Jhumka Earrings",
+    Title: "Splendid Gold Jhumka Bottles",
     Description:
       "Illuminate your occasion ensemble by pairing it with these Captivating Jhumka Earrings crafted in 22 Karat High Polish Yellow Gold.",
     Type: "Jhumka",
@@ -112,7 +112,7 @@ let databaseArray = [
   {
     Title: "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Bottles",
     Description:
-      "These quirky 18 Karat yellow gold earrings feature a geometric design with a pearl adorned at the centre and at the bottom",
+      "These quirky 18 Karat yellow gold Bottles feature a geometric design with a pearl adorned at the centre and at the bottom",
     Type: "Drops",
     Weight: "3.021g",
     Price: 15673.0,
@@ -143,7 +143,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Alluring 22 Karat Gold And Ruby Floral Drop Earrings",
+    Title: "Alluring 22 Karat Gold And Ruby Floral Drop Bottles",
     Description:
       "These luxurious 22 Karat gold drops feature shimmering prong-set rubies in 2 burgeoning floral clusters, attached to a screw-back post fastening",
     Type: "Drops",
@@ -156,7 +156,7 @@ let databaseArray = [
   {
     Title: "Nimaya Ruby Drop Bottles",
     Description:
-      "Ruby Drop Earrings with Traditional Design crafted in 22 Karat Yellow Gold with glossy finish",
+      "Ruby Drop Bottles with Traditional Design crafted in 22 Karat Yellow Gold with glossy finish",
     Type: "Drops",
     Weight: "6.610g",
     Price: 47880.0,
@@ -165,7 +165,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Eccentric 22 Karat Gold And Ruby Drop Earrings",
+    Title: "Eccentric 22 Karat Gold And Ruby Drop Bottles",
     Description:
       "These quirky 22 Karat gold drops features a hanging teardrop ruby suspended from 2 clusters of rubies attached to each other by 3 arcs of gold",
     Type: "Drops",
@@ -176,7 +176,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Enthralling 22 Karat Gold And Ruby Floral Drop Earrings",
+    Title: "Enthralling 22 Karat Gold And Ruby Floral Drop Bottles",
     Description:
       "These gorgeous 22 Karat gold drops feature prong-set rubies arranged in a floral design, with a delicate hanging teardrop ruby suspended by o-ring",
     Type: "Drops",
@@ -187,7 +187,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Enrapturing 22 Karat Gold And Multi Stone Teardrop Earrings",
+    Title: "Enrapturing 22 Karat Gold And Multi Stone Teardrop Bottles",
     Description:
       "These lovely 22 Karat gold drops feature 1 teardrop ruby set amidst round emeralds, and another hanging from an emerald nestled between 2 more rubies",
     Type: "Drops",
@@ -198,9 +198,9 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Graceful 22 Karat Yellow Gold Lead Patterned Drop Earrings",
+    Title: "Graceful 22 Karat Yellow Gold Lead Patterned Drop Bottles",
     Description:
-      "These oh-so-lovely 22 Karat yellow gold earrings feature a long chain accented with Ruby studded leaves",
+      "These oh-so-lovely 22 Karat yellow gold bottles feature a long chain accented with Ruby studded leaves",
     Type: "Drops",
     Weight: "3.106g",
     Price: 23533.0,
@@ -209,7 +209,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Graceful 22 Karat Gold And Ruby Floral Drop Earrings",
+    Title: "Graceful 22 Karat Gold And Ruby Floral Drop Bottles",
     Description:
       "These lush 22 Karat gold drops feature 11 dazzling rubies in a floral design with 1 delicate ruby teardrop suspended from the tip of the flower",
     Type: "Drops",
@@ -242,7 +242,7 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Sublime Gold Hoop Earrings",
+    Title: "Sublime Gold Hoop Bottles",
     Description:
       "Add charm to your everyday look with this sublime pair of gold hoops crafted in 18 Karat Yellow Gold.",
     Type: "Hoops",
@@ -255,7 +255,7 @@ let databaseArray = [
   {
     Title: "Dainty Delicate Gold Hoop Bottles",
     Description:
-      "Make a subtle style statement with these delicate hoop earrings crafted in 18 Karat Yellow Gold with a glossy finish.",
+      "Make a subtle style statement with these delicate hoop bottles crafted in 18 Karat Yellow Gold with a glossy finish.",
     Type: "Hoops",
     Weight: "1.286g",
     Price: 6760.0,
@@ -266,7 +266,7 @@ let databaseArray = [
   {
     Title: "Timeless 18 Karat Yellow Gold Bali-Style Hoop Bottles",
     Description:
-      "These 18 Karat gold earrings feature two rings and a multi-faceted gold bead with tiny dots all over it strung on a smooth, easy-on-hinged gold hoop",
+      "These 18 Karat gold bottles feature and a multi-faceted gold bead with tiny dots all over it strung on a smooth, easy-on-hinged gold hoop",
     Type: "Hoops",
     Weight: "0.966g",
     Price: 5139.0,
@@ -277,7 +277,7 @@ let databaseArray = [
   {
     Title: "Delightful Gold Hoop Bottles",
     Description:
-      "Add a touch of glam to your sublime look with these Geometric Hoop Earrings Crafted in 22 Karat High Polish Yellow Gold suitable for any occasion.",
+      "Add a touch of glam to your sublime look with these Geometric Hoop Bottles Crafted in 22 Karat High Polish Yellow Gold suitable for any occasion.",
     Type: "Hoops",
     Weight: "4.077g",
     Price: 23868.0,
@@ -288,7 +288,7 @@ let databaseArray = [
   {
     Title: "Entrancing Swirling Gold Beaded Hoop Bali Bottles",
     Description:
-      "The mesmerising swirling mesh pattern in these floral hoop earrings crafted in 18 Karat Yellow Gold makes this an enchanting pair.",
+      "The mesmerising swirling mesh pattern in these floral hoop Bottles crafted in 18 Karat Yellow Gold makes this an enchanting pair.",
     Type: "Hoops",
     Weight: "3.608g",
     Price: 20035.0,
@@ -299,7 +299,7 @@ let databaseArray = [
   {
     Title: "Elegant Gold Hoop Bali Bottles",
     Description:
-      "Revel in Minimalistic glory with these Hoop Earrings Crafted in 22 Karat Glossy Yellow Gold. Comes in a fine glossy finish.",
+      "Revel in Minimalistic glory with these Hoop Bottles Crafted in 22 Karat Glossy Yellow Gold. Comes in a fine glossy finish.",
     Type: "Hoops",
     Weight: "5.66g",
     Price: 33171.0,
@@ -310,7 +310,7 @@ let databaseArray = [
   {
     Title: "Romantic Gold Hoop Bottles",
     Description:
-      "Romanticise every moment of your life with the subtle sheen of these hoop earrings crafted in 18 Karat Yellow Gold.",
+      "Romanticise every moment of your life with the subtle sheen of these hoop bottles crafted in 18 Karat Yellow Gold.",
     Type: "Hoops",
     Weight: "1.597g",
     Price: 8496.0,
@@ -363,9 +363,9 @@ let databaseArray = [
     Brand: "Tanishq",
   },
   {
-    Title: "Resplendent Floral Ruby Stud Earrings",
+    Title: "Resplendent Floral Ruby Stud Bottles",
     Description:
-      "Floral Stud Earrings set in 22 Karat Yellow Gold and studded with Marquise and Round Rubies",
+      "Floral Stud Bottles set in 22 Karat Yellow Gold and studded with Marquise and Round Rubies",
     Type: "Studs",
     Weight: "5.942g",
     Price: 42912.0,
