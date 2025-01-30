@@ -63,10 +63,8 @@ let navbar = () => {
         </div>
 
         <div id="div2">
-            <a href="index.html"><center>Home</center><img id="logo"
-                    src="https://www.yesulikplimits.com/img/yistf.png"
-                    alt="" /></a>
-
+            <a href="index.html"><center>Home</center>
+            </a>
             <ul id="topnav2" class="top ulnav">
                 <div class="navbar">
                     <div class="dropdown">
