@@ -77,27 +77,27 @@ let navbar = () => {
                                 <div class="column">
                                     <h3>CATEGORY</h3>
                                     <a href="products.html">ALL WATER BOTTLES</a>
-                                    <a href="products.html" id="earrings">EARRINGS</a>
-                                    <a href="products.html" id="pendants">PENDANTS</a>
-                                    <a href="products.html">FINGER RINGS</a>
-                                    <a href="products.html" id="mangalsutra">MANGALSUTRA</a>
+                                    <a href="products.html" id="earrings">SMART BOTTLE</a>
+                                    <a href="products.html" id="pendants">MENTAL</a>
+                                    <a href="products.html">VACUUM</a>
+                                    <a href="products.html" id="mangalsutra">HYDRATED</a>
                                     <a href="products.html">CHAIN</a>
-                                    <a href="products.html" id="necklace">NECKLACE</a>
-                                    <a href="products.html">NOSE PIN</a>
-                                    <a href="products.html">COUPLE RINGS</a>
+                                    <a href="products.html" id="necklace">BABIES</a>
+                                    <a href="products.html">TRAVELING</a>
+                                    <a href="products.html">COUPLE WATER BOTTLE</a>
                                 </div>
                                 <div class="column">
-                                    <a href="products.html">NECKLACE SET</a>
-                                    <a href="products.html" id="earrings">BANGLE</a>
-                                    <a href="products.html" id="pendants">BRACELETS</a>
-                                    <a href="products.html">PENDANT AND EARRING SET</a>
+                                    <a href="products.html">METAL BRAND SET</a>
+                                    <a href="products.html" id="earrings">SMART BOTTLE</a>
+                                    <a href="products.html" id="pendants">NORMAL BOTTLE</a>
+                                    <a href="products.html">KIDS AND ADULT SET</a>
                                     <a href="products.html" id="mangalsutra">GOLD COINS</a>
                                 </div>
 
                                 <div class="column">
                                     <h3>GENDER</h3>
-                                    <a href="products.html">MEN</a>
-                                    <a href="products.html">WOMEN</a>
+                                    <a href="products.html">MEN MOSTLY LIKE</a>
+                                    <a href="products.html">WOMEN MOSTLY LIKE</a>
                                     <a href="products.html">KIDS</a>
                                     <a href="products.html">UNISEX</a>
                                 </div>
@@ -124,35 +124,31 @@ let navbar = () => {
                             <div class="header"></div>
                             <div class="row">
                                 <div class="column">
-                                    <h3>EARINGS</h3>
-                                    <a href="products.html">JHUMKA</a>
-                                    <a href="products.html">STUD</a>
-                                    <a href="products.html">HOOP</a>
-                                    <a href="products.html">DROP</a>
+                                    <h3>WATER BOTTLES MADE</h3>
+                                    <a href="products.html">JAPAN</a>
+                                    <a href="products.html">CHINA</a>
+                                    <a href="products.html">GHANA</a>
+                                    <a href="products.html">ITALY</a>
                                 </div>
                                 <div class="column">
-                                    <h3>PENDANTS</h3>
+                                    <h3>KIDS</h3>
                                     <a href="products.html">DAILY</a>
-                                    <a href="products.html">PARTY</a>
-                                    <a href="products.html">WORK WEAR</a>
-                                    <a href="products.html">TRADITIONAL</a>
+                                    <a href="products.html">SCHOOL</a>
                                 </div>
                                 <div class="column">
-                                    <h3>FINGER RING</h3>
-                                    <a href="products.html">ENGAEMENT RINGS</a>
-                                    <a href="products.html">PARTY</a>
-                                    <a href="products.html">WORKWEAR</a>
-                                    <a href="products.html">DAILY WEAR</a>
+                                    <h3>SMART BOTTLES</h3>
+                                    <a href="products.html"></a>
+                                    <a href="products.html">SCHOOL</a>
+                                    <a href="products.html">OFFICE</a>
+                                    <a href="products.html">TRAVELING</a>
                                 </div>
                                 <div class="column">
                                     <h3>OTHER CATEGORIES</h3>
-                                    <a href="products.html">CHAIN</a>
-                                    <a href="products.html">MANGALSUTRA</a>
-                                    <a href="products.html">NECKWEAR</a>
-                                    <a href="products.html">NOSE PIN</a>
-                                    <a href="products.html">NECKWEAR SET</a>
-                                    <a href="products.html">BANGLE</a>
-                                    <a href="products.html">BRACELET</a>
+                                    <a href="products.html">SILVER</a>
+                                    <a href="products.html">PLASTIC</a>
+                                    <a href="products.html">METAL</a>
+                                    <a href="products.html">COPPER</a>
+                                    <a href="products.html">TEMPORAL SET</a>S
                                 </div>
                                 <div class="column">
                                     <h3>GOLD COIN</h3>
@@ -170,8 +166,8 @@ let navbar = () => {
                                 </div>
                                 <div class="column">
                                     <h3>METAL COLOUR</h3>
-                                    <a href="products.html">YELLOW</a>
-                                    <a href="products.html">ROSE</a>
+                                    <a href="products.html">SILVER</a>
+                                    <a href="products.html">BLACK</a>
                                     <a href="products.html">WHITE</a>
                                 </div>
                             </div>
