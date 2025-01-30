@@ -1,0 +1,144 @@
+commit bfa8faa1760ab9a7669860c28f1a232994da037f
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Thu Jan 30 12:02:32 2025 +0000
+
+    Price changed update
+
+commit 834a86bab993da7cbd40acb9197745c38e47efaf
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Thu Jan 30 09:37:12 2025 +0000
+
+    Update on Amazon directory
+
+commit d58a8dd898801ba3a7b8057c97c90c72aab1cab5
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Thu Jan 30 04:58:16 2025 +0000
+
+    Update on dropdown tab view _30_01_2025
+
+commit 09662f1d25fa97acbb0f45948dcbdbd7c0b41e01
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 17:03:02 2025 +0000
+
+    Evening update on 28_01_2025
+
+commit c10377e7a627aaf08a518312814ad4dfa1b4cf09
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 12:36:54 2025 +0000
+
+    New update
+
+commit 9fb3e3b8e50d7fc9175c2349d1c7e482a0760241
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 12:03:18 2025 +0000
+
+    Another update for 28_01_2025
+
+commit e50ae61c2e4200ac9edf806d7ab337eb01a8c5d0
+Merge: 8b3e7e2 01027e3
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 10:28:14 2025 +0000
+
+    Merge remote-tracking branch 'origin/main' into WittyMA
+
+commit 8b3e7e2efecade0f6a6e64c632e7b94e678dbf4d
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 10:07:32 2025 +0000
+
+    Images changing upon database.js
+
+commit a5c4f14629d094ab546aa55d4fe5b63ab0f334ba
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 09:05:31 2025 +0000
+
+    New Update on 28_01_2025
+
+commit e9f2aa7d4b4dfce035b6b39f30bbf94fc506896f
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Wed Jan 29 00:27:08 2025 +0000
+
+    Importation of images
+
+commit 01027e36b651ba288dbe1037433566eec21a7f80
+Merge: 6adc3b7 eadaeb6
+Author: Wisdom Anyizah <159744020+WittyMA@users.noreply.github.com>
+Date:   Tue Jan 28 15:12:41 2025 +0000
+
+    Merge pull request #1 from WittyMA/WittyMA
+    
+    Update the REAME file by WittyMA
+
+commit eadaeb609d227a6efd4f97ccaaecceef1a43dfa8
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Tue Jan 28 15:00:19 2025 +0000
+
+    Update the REAME file by WittyMA
+
+commit 6adc3b7d93c8cd683e4b3daa1ec64a66c68b3295
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Mon Jan 27 14:48:28 2025 +0000
+
+    27_01_2025 update
+
+commit 3e43ff3070ae8f87695fc2aff2c413e38064c80a
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Mon Jan 27 08:15:27 2025 +0000
+
+    Uploading of all necessary images
+
+commit 2eb161547401b2ea2dce16f6cbc5f686f340780e
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Mon Jan 27 08:12:01 2025 +0000
+
+    Uploading Images
+
+commit 16552c48872ae6c15ca50cce127809c2d042fcb2
+Merge: ee85c4d baa8d75
+Author: Wisdom@yesulikplimits <wwwanyizah@gmail.com>
+Date:   Sun Jan 26 16:15:55 2025 +0000
+
+    Merge branch 'main' of https://github.com/WittyMA/Moha_E-comc
+
+commit baa8d75ea31431ae8bb132f8c7d802d508511035
+Author: Wisdom Anyizah <159744020+WittyMA@users.noreply.github.com>
+Date:   Sun Jan 26 16:12:30 2025 +0000
+
+    Add files via upload
+    
+    Update all files
+
+commit 42e28fc7877d0cd91eec07f0ae935348d6e0f2f8
+Author: Wisdom Anyizah <159744020+WittyMA@users.noreply.github.com>
+Date:   Mon Jan 20 16:36:34 2025 +0000
+
+    Create codeql.yml
+
+commit c1a87a97ef75ee884d723d129e678315d9d3f768
+Author: Yesulikplim Tech Services <yesulikplimits@localhost.localdomain>
+Date:   Mon Jan 20 16:29:45 2025 +0000
+
+    Adding unused file and image
+
+commit 69f1d7492a61ae02d8121639184da09410c4602a
+Author: Yesulikplim Tech Services <yesulikplimits@localhost.localdomain>
+Date:   Mon Jan 20 16:22:59 2025 +0000
+
+    All file set for Monday_20_01_2025
+
+commit 72893fee16deb0bc4b6fd3459cf04cc75c4eddc4
+Author: Wisdom Anyizah <159744020+WittyMA@users.noreply.github.com>
+Date:   Mon Jan 20 15:56:45 2025 +0000
+
+    Initial commit
+
+commit ee85c4d66fdfb387c3930ea077477cbcdc28014c
+Author: Yesulikplim Tech Services <yesulikplimits@localhost.localdomain>
+Date:   Sun Dec 22 17:59:04 2024 +0000
+
+    Update all files and , adding up some files
+
+commit 8d85e0e92e96370d14b83523fac3ef782955f81d
+Author: Yesulikplim Tech Services <yesulikplimits@localhost.localdomain>
+Date:   Sun Jan 26 03:15:02 2025 +0000
+
+    Update all files

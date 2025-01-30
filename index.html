@@ -97,6 +97,11 @@
             alt=""
             style="width: 50vw; height: 70vh;"
           />
+          <img
+            src="./img/boot1.jpg"
+            alt=""
+            style="width: 50vw; height: 70vh;"
+          />
         </div>
       </div>
 
@@ -676,19 +681,24 @@
     }
     runslider();
   }
-
+var timeInterval = 2000;
   function runslider() {
     var items = document.querySelectorAll("#centimg > img");
+
+    
     for (var i = 0; i < items.length; i++) {
+     
       if (i + 1 === item) {
         items[i].style.display = "block";
       } else {
+        
+        }
         items[i].style.display = "none";
       }
     }
-  }
+
   runslider();
-  setInterval(next, 2000);
+  setInterval(next, timeInterval);
 
   // Handle login state
   let flag = localStorage.getItem("flag_val");
