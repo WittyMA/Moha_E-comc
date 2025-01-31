@@ -273,7 +273,7 @@
                 alt=""
               />
               <div class="topSellersElem">
-                <h3>Sublime Gold Hoop Earrings</h3>
+                <h3>Sublime Gold Hoop Bottles</h3>
                 <span class="tt_rupee">
                   <h4 style="margin-top: 10px">GH₵ 2899</h4>
                 </span>
@@ -285,7 +285,7 @@
           </div>
           <div class="slides" >
             <div id="slides1_img">
-              <img2000;
+              <img
                 src="./img/bot21.jpg"
                 alt=""
               />
@@ -588,81 +588,23 @@
     <div id="Tanishq">
       <div id="Tanishq_box1">
         <img
-          style="width: 420px; height: 300px"
+          style="width: 42vw; height: 30vh"
           src="img/Kiyo-UVC-Bottle-500ml-Blue-Hour_900x.webp"
           alt="metal_bottles"
         />
       </div>
       <div id="Tanishq_box2">
+        
+      </div>
+      <div id="Tanishq_box2">
         <img
           style="width: 420px; height: 300px"
-          src="img/bottle1.jpeg"
-          alt="bottlescreen"
-        />
-      </div>// Carousel functionality
-      var item = 1;
-      var interval; // Holds the setInterval instance
-      
-      document.querySelector("#prevbtn").addEventListener("click", prev);
-      document.querySelector("#nextbtn").addEventListener("click", next);
-      
-      function prev() {
-        var items = document.querySelectorAll("#centimg > img");
-        if (item === 1) {
-          item = items.length;
-        } else {
-          item--;
-        }
-        runslider();
-      }
-      
-      function next() {
-        var items = document.querySelectorAll("#centimg > img");
-        if (item === items.length) {
-          item = 1;
-        } else {
-          item++;
-        }
-        runslider();
-      }
-      
-      // Function to show/hide images
-      function runslider() {
-        var items = document.querySelectorAll("#centimg > img");
-        for (var i = 0; i < items.length; i++) {
-          if (i + 1 === item) {
-            items[i].style.display = "block";
-          } else {
-            items[i].style.display = "none";
-          }
-        }
-      }
-      
-      // Start auto-slide
-      function startSlider() {
-        interval = setInterval(next, 2000);
-      }
-      
-      // Stop auto-slide
-      function stopSlider() {
-        clearInterval(interval);
-      }
-      
-      // Add event listeners to each image for hover effect
-      document.querySelectorAll("#centimg > img").forEach((img) => {
-        img.addEventListener("mouseover", stopSlider);
-        img.addEventListener("mouseleave", startSlider);
-      });
-      
-      // Initialize the slider
-      runslider();
-      startSlider();
-      
-          style="width: 420px; height: 300px"
-          src="img/bottle.jpeg"
-          alt="water_bottles"
+          src="img/bot16.jpg"
+          alt="bottleScreen"
         />
       </div>
+      </div>
+
     </div>
     <span style="margin-left: 95%">Poweredby</span>
     <div id="ORIGINAL">

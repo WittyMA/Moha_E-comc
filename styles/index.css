@@ -310,7 +310,7 @@ body {
 .btnFlex > div:last-child > a > button {
   padding: 15px;
 }
-
+Tanishq_box2
 .arrangeCallBtn {
   border: 1px solid black;
   background: #000;
@@ -332,7 +332,7 @@ body {
 }
 
 #Tanishq {
-  display: grid;
+  dTanishq_box2isplay: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 90%;
@@ -398,7 +398,7 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 1px solid black;
+  bTanishq_box2order: 1px solid black;
   margin-left: -510px;
   margin-top: -70px;
 }
@@ -409,7 +409,7 @@ body {
   border: 1px solid black;
   margin-left: 510px;
   margin-top: -100px;
-}
+}Tanishq_box2
 #ORIGINAL {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
