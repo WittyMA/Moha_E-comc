@@ -32,7 +32,7 @@ body {
 }
 .slick-next {
   right: 10px;
-  background: url(https://iconscout.com/icon/next-2032026) no-repeat;
+  background: url(../img/next_icon.png) no-repeat;
   background-position: 100% center;
   -webkit-background-size: 10px 19px;
   -moz-background-size: 10px 19px;
@@ -56,8 +56,7 @@ body {
 
 .slick-prev {
   left: 10px;
-  background: url(https://staticimg.titan.co.in/Icons/carousel/left.svg)
-    no-repeat;
+  background: url(../img/prev_icon2.png) no-repeat;
   background-position: 100% center;
   -webkit-background-size: 10px 19px;
   -moz-background-size: 10px 19px;
@@ -258,7 +257,7 @@ body {
 }
 
 .rivaahImg {
-  background-image: url("https://staticimg.titan.co.in/Tanishq/Banners/rivaah/images/banner/Tamil/RivaahNewDestop_1920x700.jpg");
+  background-image: url("../img/water.avif");
   height: 550px;
   width: 100%;
   background-size: cover;
@@ -304,14 +303,13 @@ body {
 
 .btnFlex > div:first-child > button {
   padding: 15px;
-  color: white;
+  color: rgb(32, 31, 31);
 }
 
 .btnFlex > div:last-child > a > button {
   padding: 15px;
 }
-Tanishq_box2
-.arrangeCallBtn {
+Tanishq_box2 .arrangeCallBtn {
   border: 1px solid black;
   background: #000;
   width: 100%;
@@ -332,7 +330,7 @@ Tanishq_box2
 }
 
 #Tanishq {
-  dTanishq_box2isplay: grid;
+  dtanishq_box2isplay: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 90%;
@@ -387,8 +385,8 @@ Tanishq_box2
   margin-top: -100px;
 }
 #customer3 {
-  width: 70px;
-  height: 70px;
+  width: 70vw;
+  height: 70vh;
   border-radius: 50%;
   border: 1px solid black;
   margin-left: -1000px;
@@ -398,19 +396,19 @@ Tanishq_box2
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  bTanishq_box2order: 1px solid black;
+  btanishq_box2order: 1px solid black;
   margin-left: -510px;
   margin-top: -70px;
 }
 #customer5 {
-  width: 70px;
-  height: 70px;
+  width: 70vw;
+  height: 70vh;
   border-radius: 50%;
   border: 1px solid black;
   margin-left: 510px;
   margin-top: -100px;
-}Tanishq_box2
-#ORIGINAL {
+}
+Tanishq_box2 #ORIGINAL {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
